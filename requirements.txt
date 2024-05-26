@@ -7,7 +7,7 @@ keras
 yfinance
 requests
 beautifulsoup4
-bokeh
+bokeh==2.4.3
 matplotlib
 seaborn
 plotly
