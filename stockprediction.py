@@ -85,7 +85,7 @@ else:
     regressor.add(Dense(units=1))
     regressor.compile(optimizer='adam', loss='mean_squared_error')
 
-    regressor.fit(X_train, y_train, epochs=1, batch_size=8)
+    regressor.fit(X_train, y_train, epochs=20, batch_size=8)
 
     if save_model:
         regressor.save(Stock.ticker + "_lstm_model.h5")
