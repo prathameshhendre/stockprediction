@@ -66,6 +66,8 @@ X_forecast = np.reshape(X_forecast, (1, X_forecast.shape[0], 1))  # Reshaping fo
 
 # Now, X_train and y_train are prepared for training, and X_forecast is prepared for forecasting.
 
+# df['Net Profit (%)'] = df['Net Profit'].pct_change() * 100
+# df['Basic EPS'] = df['Basic EPS'].pct_change() * 100
 
 load_existing_model = True  # Define the variable load_existing_model
 save_model = True  # Define the variable save_model
