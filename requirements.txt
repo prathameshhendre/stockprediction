@@ -2,8 +2,7 @@ numpy
 pandas
 scikit-learn
 streamlit
-tensorflow
-keras
+tensorflow==2.12.0
 yfinance
 requests
 beautifulsoup4
