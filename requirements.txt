@@ -11,3 +11,5 @@ matplotlib
 seaborn
 plotly
 stocknews
+python==3.10
+
