@@ -1,8 +1,9 @@
+python==3.10
 numpy
 pandas
 scikit-learn
 streamlit
-tensorflow==2.12.0
+tensorflow
 yfinance
 requests
 beautifulsoup4
@@ -11,5 +12,4 @@ matplotlib
 seaborn
 plotly
 stocknews
-python==3.10
 
