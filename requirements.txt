@@ -1,10 +1,9 @@
-python==3.10
+python==3.8.20
 numpy
 pandas
 scikit-learn
 streamlit
-tensorflow==2.10.1
-keras==2.10.0
+tensorflow
 yfinance
 requests
 beautifulsoup4
